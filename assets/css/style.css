@@ -122,3 +122,485 @@ body {
     padding: 40px 0;
 
 }
+.conteudo h2 {
+
+    margin-top: 0;
+
+    margin-bottom: 20px;
+
+    color: #111827;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+}
+
+ 
+
+.visao-geral {
+
+    margin-bottom: 48px;
+
+}
+.indicador {
+
+    margin-bottom: 16px;
+
+    padding: 28px;
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+}
+.indicador-icone {
+
+    display: block;
+
+    margin-bottom: 12px;
+
+    font-size: 64px;
+
+    line-height: 1;
+
+}
+.indicador-abertos .indicador-icone {
+
+    color: #2563eb;
+
+}
+.indicador-atendimento .indicador-icone {
+
+    color: #f59e0b;
+
+}
+
+ 
+
+.indicador-concluidos .indicador-icone {
+
+    color: #16a34a;
+
+}
+
+ 
+
+.indicador-atrasados .indicador-icone {
+
+    color: #dc2626;
+
+}
+.indicador strong {
+
+    display: block;
+
+    color: #111827;
+
+ 
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+}
+
+ 
+
+.indicador span {
+
+    display: block;
+
+    margin-top: 4px;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+}
+.indicador {
+
+    box-shadow: 0 4px 14px rgb(15 23 42 / 0.05);
+
+}
+.pedido {
+
+    margin-bottom: 20px;
+
+    padding: 28px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 16px;
+
+    box-shadow: 0 4px 14px rgb(15 23 42 / 0.05);
+
+}
+.icone-pedido {
+
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #2563eb;
+
+    font-size: 32px;
+}
+.pedido h3 {
+
+    margin: 0;
+
+    color: #111827;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+}
+
+ 
+
+.cliente {
+
+    margin: 2px 0 0;
+
+    color: #475569;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+}
+
+ 
+
+.descricao {
+
+    margin: 16px 0;
+
+    color: #334155;
+
+    font-size: 16px;
+
+}
+.badge {
+
+    display: inline-block;
+
+    margin: 3px 5px 3px 0;
+
+    padding: 5px 11px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+}
+.normal {
+
+    background-color: #f1f5f9;
+
+    color: #475569;
+
+}
+
+ 
+
+.alta {
+
+    background-color: #fff7ed;
+
+    color: #c2410c;
+
+}
+
+ 
+
+.urgente {
+
+    background-color: #fef2f2;
+
+    color: #b91c1c;
+
+}
+.aberto {
+
+    background-color: #eff6ff;
+
+    color: #1d4ed8;
+
+}
+
+ 
+
+.atendimento {
+
+    background-color: #fff7ed;
+
+    color: #c2410c;
+
+}
+
+ 
+
+.concluido {
+
+    background-color: #f0fdf4;
+
+    color: #15803d;
+
+}
+.dados-pedido {
+
+    margin-top: 20px;
+
+    padding-top: 16px;
+
+    border-top: 1px solid #eef2f7;
+
+}
+
+ 
+
+.dados-pedido p {
+
+    margin: 7px 0;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+}
+
+ 
+
+.dados-pedido strong {
+
+    color: #334155;
+
+}
+
+ 
+
+.dados-pedido i {
+
+    margin-right: 6px;
+
+    color: #94a3b8;
+
+    font-size: 16px;
+
+}
+.botao {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 11px 18px;
+
+    background-color: #2563eb;
+
+    color: #ffffff;
+
+    border: 1px solid #2563eb;
+
+    border-radius: 9px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    box-shadow: 0 2px 6px rgb(37 99 235 / 0.18);
+
+}
+.botao:hover {
+
+    background-color: #1d4ed8;
+
+    border-color: #1d4ed8;
+
+    transform: translateY(-1px);
+
+    box-shadow: 0 5px 12px rgb(37 99 235 / 0.22);
+
+}
+.botao:focus {
+
+    outline: 3px solid #bfdbfe;
+
+    outline-offset: 3px;
+
+}
+.indicador:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 22px rgb(15 23 42 / 0.09);
+
+}
+.pedido:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 10px 24px rgb(15 23 42 / 0.09);
+
+}
+.ver-todos {
+
+    margin: 32px 0;
+
+    text-align: center;
+
+}
+
+ 
+
+.ver-todos a {
+
+    display: inline-block;
+
+    padding-bottom: 3px;
+
+    color: #2563eb;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+
+}
+
+ 
+
+.ver-todos a:hover {
+
+    color: #1d4ed8;
+
+    border-bottom-color: #1d4ed8;
+
+}
+.spinner {
+
+    display: inline-block;
+
+    width: 16px;
+
+    height: 16px;
+
+    margin-right: 7px;
+
+    vertical-align: -2px;
+
+    border: 2px solid #cbd5e1;
+
+    border-top-color: #2563eb;
+
+    border-radius: 50%;
+
+}
+@keyframes girar {
+
+ 
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+ 
+
+}
+.rodape {
+
+    margin-top: 16px;
+
+ 
+
+    padding: 32px 16px;
+
+ 
+
+    text-align: center;
+
+ 
+
+    background-color: #ffffff;
+
+ 
+
+    border-top: 1px solid #e5e7eb;
+
+ 
+
+    color: #64748b;
+
+}
+
+ 
+
+.rodape p {
+
+    margin: 10px 0;
+
+ 
+
+    font-size: 13px;
+
+}
+
+ 
+
+.sincronizacao {
+
+    color: #475569;
+
+}
+
+ 
+
+.sistema-atualizado {
+
+    color: #15803d;
+
+}
+
+ 
+
+.sistema-atualizado i {
+
+    margin-right: 4px;
+
+}
+
+ 
+
+.ultima-atualizacao {
+
+    color: #64748b;
+
+}
+
+ 
+
+.ultima-atualizacao i {
+
+    margin-right: 4px;
+
+}
